@@ -1,0 +1,10 @@
+#squares = [value ** 2 for value in range(1, 10) ]
+squares = list( range(1,1000001) )
+print("squares length is:")
+print( len(squares) )
+print("squares min is:")
+print(min(squares))
+print("squares max is:")
+print(max(squares))
+print("squares sum is:")
+print( sum(squares) )
